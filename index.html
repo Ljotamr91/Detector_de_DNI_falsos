@@ -101,5 +101,25 @@
         *
         -->
     </footer>
+
+    <h1>REGISTRO DNI POLICIA NACIONAL</h1>
+    <!-- Formulario registrar datos-->
+              <section>
+                <div class="field">
+                  <div class="control">
+                <label>Nombre</label><br>
+                <input class="input is-info"  type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" required><BR>
+                <label>Apellido</label><br>
+                <input class="input is-info"  type="text" name="apellido" id="apellido" placeholder="Introduce tu apellido" required><BR>
+                <label>DNI</label><bR>
+                <input class="input is-info"  type="text" name="dni" id="dni" placeholder="Introduce tu dni" required><br>
+                <!-- Enviar los datos a la funcion-->
+                <input type="button" onclick="calcularLetra();" value="Comprobar">  
+                <!--se imprimen los datos en pantalla-->          
+                <h3>NOMBRE:<strong id="nombre_usuario"></strong></h3>
+                <h3>APELLIDO:<strong id="apellido_usuario"></strong></h3>
+                <h3>DNI:<strong id="total_datos"></strong></h3>
+    
+    <script src="js/main.js"></script>
   </body>
 </html>
